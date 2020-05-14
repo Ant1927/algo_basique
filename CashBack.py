@@ -1,5 +1,3 @@
-import random
-
 class Cashier_unlimitited:
     __available_currency ={'one':1,'three': 3,'four':4}  # value
     __money_return={}
@@ -37,4 +35,3 @@ class Cashier_unlimitited:
         print("To return {}, you need :".format(x))
         for i in range(len(self.__money_return[x][0])):
             print("{} coin(s) of {} ".format(self.__money_return[x][1][i], self.__money_return[x][0][i]))
-
